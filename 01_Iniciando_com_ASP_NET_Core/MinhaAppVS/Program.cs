@@ -23,6 +23,7 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
+// Adicionando suporte a rotas
 app.UseRouting();
 
 app.UseAuthorization();
