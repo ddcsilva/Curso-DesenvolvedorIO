@@ -1,8 +1,9 @@
-import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { LOCALE_ID, NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { APP_BASE_HREF } from '@angular/common';
+import { APP_BASE_HREF, registerLocaleData } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 import { AppComponent } from './app.component';
 import { MenuComponent } from './navegacao/menu/menu.component';
@@ -15,6 +16,9 @@ import { DataBindingComponent } from './demos/data-binding/data-binding.componen
 import { ProdutoService } from './produtos/produtos.service';
 import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.component';
 
+import localePt from '@angular/common/locales/pt';
+
+registerLocaleData(localePt);
 @NgModule({
     declarations: [
         AppComponent,
@@ -29,9 +33,14 @@ import { ListaProdutoComponent } from './produtos/lista-produto/lista-produto.co
     imports: [
         BrowserModule,
         FormsModule,
+        HttpClientModule,
         [RouterModule.forRoot(rootRouterConfig, { useHash: false })]
     ],
-    providers: [ProdutoService, { provide: APP_BASE_HREF, useValue: '/' }],
+    providers: [
+        ProdutoService,
+        { provide: APP_BASE_HREF, useValue: '/' },
+        { provide: LOCALE_ID, useValue: 'pt-BR' }
+    ],
     bootstrap: [AppComponent]
 })
 export class AppModule {}
