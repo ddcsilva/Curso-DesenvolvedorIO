@@ -1,0 +1,15 @@
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.deps.json
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.dll
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Data.pdb
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.dll
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\bin\Debug\net6.0\DevIO.Business.pdb
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.AssemblyReference.cache
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfoInputs.cache
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.AssemblyInfo.cs
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CoreCompileInputs.cache
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.csproj.CopyComplete
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.dll
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\refint\DevIO.Data.dll
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\DevIO.Data.pdb
+C:\Projetos\Curso_DesenvolvedorIO\03-REST_com_ASP_NET_Core\MinhaAPICompleta\src\DevIO.Data\obj\Debug\net6.0\ref\DevIO.Data.dll
