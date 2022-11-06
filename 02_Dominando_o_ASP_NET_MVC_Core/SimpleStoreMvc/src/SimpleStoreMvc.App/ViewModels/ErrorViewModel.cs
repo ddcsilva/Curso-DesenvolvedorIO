@@ -1,4 +1,4 @@
-namespace SimpleStoreMvc.App.Models
+namespace SimpleStoreMvc.App.ViewModels
 {
     public class ErrorViewModel
     {
