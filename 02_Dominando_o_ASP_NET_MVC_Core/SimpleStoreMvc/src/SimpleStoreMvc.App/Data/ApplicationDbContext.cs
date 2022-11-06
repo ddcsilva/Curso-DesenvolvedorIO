@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using SimpleStoreMvc.App.ViewModels;
 
 namespace SimpleStoreMvc.App.Data
 {
@@ -9,5 +10,7 @@ namespace SimpleStoreMvc.App.Data
             : base(options)
         {
         }
+        public DbSet<SimpleStoreMvc.App.ViewModels.FornecedorViewModel> FornecedorViewModel { get; set; }
+        public DbSet<SimpleStoreMvc.App.ViewModels.ProdutoViewModel> ProdutoViewModel { get; set; }
     }
 }
