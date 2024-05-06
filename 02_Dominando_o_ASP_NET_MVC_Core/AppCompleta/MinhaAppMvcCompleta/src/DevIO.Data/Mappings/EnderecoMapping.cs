@@ -9,10 +9,7 @@ namespace DevIO.Data.Mappings;
 /// </summary>
 public class EnderecoMapping : IEntityTypeConfiguration<Endereco>
 {
-    /// <summary>
-    /// Método que configura o mapeamento da entidade Endereco.
-    /// </summary>
-    /// <param name="builder">Objeto que contém as configurações da entidade Endereco.</param>
+    // Método que configura o mapeamento da entidade Endereco
     public void Configure(EntityTypeBuilder<Endereco> builder)
     {
         // Configuração da Tabela

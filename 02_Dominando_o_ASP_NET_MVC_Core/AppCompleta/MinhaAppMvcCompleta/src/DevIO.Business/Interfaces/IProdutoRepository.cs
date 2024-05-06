@@ -12,18 +12,18 @@ public interface IProdutoRepository : IRepository<Produto>
     /// </summary>
     /// <param name="id">Identificador único do produto.</param>
     /// <returns>Produto com fornecedor associado.</returns>
-    Task<Produto?> ObterProdutoComFornecedorPorId(Guid id);
+    Task<Produto?> ObterProdutoComFornecedorPorIdAsync(Guid id);
 
     /// <summary>
     /// Obtém uma lista de produtos com seus respectivos fornecedores.
     /// </summary>
     /// <returns>Lista de produtos com fornecedores associados.</returns>
-    Task<IEnumerable<Produto>> ObterProdutosComFornecedores();
+    Task<IEnumerable<Produto>> ObterProdutosComFornecedoresAsync();
 
     /// <summary>
     /// Obtém uma lista de produtos de um fornecedor específico.
     /// </summary>
     /// <param name="fornecedorId">Identificador único do fornecedor.</param>
     /// <returns>Lista de produtos do fornecedor especificado.</returns>
-    Task<IEnumerable<Produto>> ObterProdutosPorFornecedor(Guid fornecedorId);
+    Task<IEnumerable<Produto>> ObterProdutosPorFornecedorAsync(Guid fornecedorId);
 }

@@ -9,10 +9,7 @@ namespace DevIO.Data.Mappings;
 /// </summary>
 public class FornecedorMapping : IEntityTypeConfiguration<Fornecedor>
 {
-    /// <summary>
-    /// Método que configura o mapeamento da entidade Fornecedor.
-    /// </summary>
-    /// <param name="builder">Objeto que contém as configurações da entidade Fornecedor.</param>
+    // Método que configura o mapeamento da entidade Fornecedor
     public void Configure(EntityTypeBuilder<Fornecedor> builder)
     {
         // Configuração da Tabela

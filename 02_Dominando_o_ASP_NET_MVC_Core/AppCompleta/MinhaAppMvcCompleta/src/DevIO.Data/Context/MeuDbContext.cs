@@ -12,10 +12,7 @@ public class MeuDbContext(DbContextOptions options) : DbContext(options)
     public DbSet<Fornecedor> Fornecedores { get; set; }
     public DbSet<Endereco> Enderecos { get; set; }
 
-    /// <summary>
-    /// Método que é chamado quando o modelo é criado.
-    /// </summary>
-    /// <param name="modelBuilder"> Objeto que contém as configurações do modelo. </param>
+    // Método que é chamado quando o contexto é criado.
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         // Configuração do tipo de dados para VARCHAR(100). Ele faz o seguinte:
@@ -41,6 +38,7 @@ public class MeuDbContext(DbContextOptions options) : DbContext(options)
             relationship.DeleteBehavior = DeleteBehavior.ClientSetNull;
         }
 
+        // Chama o método OnModelCreating da classe base.
         base.OnModelCreating(modelBuilder);
     }
 }

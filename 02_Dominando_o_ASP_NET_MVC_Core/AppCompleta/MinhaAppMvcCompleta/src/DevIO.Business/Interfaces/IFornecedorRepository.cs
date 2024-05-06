@@ -12,7 +12,7 @@ public interface IFornecedorRepository : IRepository<Fornecedor>
     /// </summary>
     /// <param name="id">Identificador único do fornecedor.</param>
     /// <returns>Fornecedor com endereço associado.</returns>
-    Task<Fornecedor?> ObterFornecedorComEnderecoPorId(Guid id);
+    Task<Fornecedor?> ObterFornecedorComEnderecoPorIdAsync(Guid id);
 
 
     /// <summary>
@@ -20,5 +20,5 @@ public interface IFornecedorRepository : IRepository<Fornecedor>
     /// </summary>
     /// <param name="id">Identificador único do fornecedor.</param>
     /// <returns>Fornecedor com produtos e endereço associados.</returns>
-    Task<Fornecedor?> ObterFornecedorComProdutosEEnderecoPorId(Guid id);
+    Task<Fornecedor?> ObterFornecedorComProdutosEEnderecoPorIdAsync(Guid id);
 }

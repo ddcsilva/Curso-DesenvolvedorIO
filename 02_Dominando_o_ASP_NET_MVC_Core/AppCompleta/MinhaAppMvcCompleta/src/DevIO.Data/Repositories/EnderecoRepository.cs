@@ -14,8 +14,6 @@ public class EnderecoRepository(MeuDbContext context) : Repository<Endereco>(con
     /// <summary>
     /// Obtém um endereço pelo identificador do fornecedor associado.
     /// </summary>
-    /// <param name="fornecedorId">Identificador único do fornecedor.</param>
-    /// <returns>Endereço do fornecedor especificado.</returns>
     public async Task<Endereco?> ObterEnderecoPorFornecedor(Guid fornecedorId)
     {
         return await _context.Enderecos.AsNoTracking() // Não rastreia as entidades

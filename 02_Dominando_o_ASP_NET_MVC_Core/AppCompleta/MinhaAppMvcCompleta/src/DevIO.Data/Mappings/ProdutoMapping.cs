@@ -9,10 +9,7 @@ namespace DevIO.Data.Mappings;
 /// </summary>
 public class ProdutoMapping : IEntityTypeConfiguration<Produto>
 {
-    /// <summary>
-    /// Método que configura o mapeamento da entidade Produto.
-    /// </summary>
-    /// <param name="builder">Objeto que contém as configurações da entidade Produto.</param>
+    // Método que configura o mapeamento da entidade Produto
     public void Configure(EntityTypeBuilder<Produto> builder)
     {
         // Configuração da Tabela
