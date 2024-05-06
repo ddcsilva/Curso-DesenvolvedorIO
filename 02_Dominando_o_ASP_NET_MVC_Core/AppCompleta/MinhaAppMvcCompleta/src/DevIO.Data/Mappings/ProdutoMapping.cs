@@ -23,8 +23,8 @@ public class ProdutoMapping : IEntityTypeConfiguration<Produto>
             .HasName("PK_PRODUTOS");
 
         // Configuração dos Relacionamentos
-        builder.HasOne(p => p.Fornecedor)
-            .WithMany(f => f.Produtos)
+        builder.HasOne(p => p.Fornecedor) // Produto tem um Fornecedor
+            .WithMany(f => f.Produtos) // Fornecedor tem muitos Produtos
             .HasForeignKey(p => p.FornecedorId)
             .HasConstraintName("FK_PRODUTO_FORNECEDOR");
 

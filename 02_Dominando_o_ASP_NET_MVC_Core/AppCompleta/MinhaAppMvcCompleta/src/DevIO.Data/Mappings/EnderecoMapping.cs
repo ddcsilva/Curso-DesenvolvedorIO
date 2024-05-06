@@ -23,8 +23,8 @@ public class EnderecoMapping : IEntityTypeConfiguration<Endereco>
             .HasName("PK_ENDERECOS");
 
         // Configuração das Relações
-        builder.HasOne(e => e.Fornecedor)
-            .WithOne(f => f.Endereco)
+        builder.HasOne(e => e.Fornecedor) // Endereço tem um Fornecedor
+            .WithOne(f => f.Endereco) // Fornecedor tem um Endereço
             .HasForeignKey<Endereco>(e => e.FornecedorId)
             .HasConstraintName("FK_ENDERECO_FORNECEDOR");
 

@@ -23,13 +23,13 @@ public class FornecedorMapping : IEntityTypeConfiguration<Fornecedor>
             .HasName("PK_FORNECEDORES");
 
         // Configuração das Relações
-        builder.HasOne(f => f.Endereco)
-            .WithOne(e => e.Fornecedor)
+        builder.HasOne(f => f.Endereco) // Fornecedor tem um Endereço
+            .WithOne(e => e.Fornecedor) // Endereço tem um Fornecedor
             .HasForeignKey<Endereco>(e => e.FornecedorId)
             .HasConstraintName("FK_ENDERECO_FORNECEDOR");
 
-        builder.HasMany(f => f.Produtos)
-            .WithOne(p => p.Fornecedor)
+        builder.HasMany(f => f.Produtos) // Fornecedor tem muitos Produtos
+            .WithOne(p => p.Fornecedor) // Produto tem um Fornecedor
             .HasForeignKey(p => p.FornecedorId)
             .HasConstraintName("FK_PRODUTO_FORNECEDOR");
 
