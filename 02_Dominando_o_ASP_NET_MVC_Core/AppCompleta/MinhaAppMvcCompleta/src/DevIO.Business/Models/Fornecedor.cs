@@ -12,5 +12,5 @@ public class Fornecedor : Entity
 
     // Relacionamentos do Entity Framework
     public Endereco? Endereco { get; set; }
-    public IEnumerable<Produto> Produtos { get; set; } = new List<Produto>();
+    public IEnumerable<Produto> Produtos { get; set; } = [];
 }
